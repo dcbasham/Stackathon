@@ -1,0 +1,27 @@
+{
+  "name": "stackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcbasham/Stackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcbasham/Stackathon/issues"
+  },
+  "homepage": "https://github.com/dcbasham/Stackathon#readme",
+  "dependencies": {
+    "@neo4j/graphql": "^3.6.2",
+    "apollo-server": "^3.10.1",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "neo4j-driver": "^4.4.7"
+  }
+}
