@@ -1,5 +1,6 @@
 # Neo4j fundamentals:
 
+[Introduction](https://neo4j.com/developer/intro-videos/)
 [graphConcepts](https://neo4j.com/docs/getting-started/current/graphdb-concepts/#graphdb-concepts)
 [graphacademy](https://graphacademy.neo4j.com/)
 

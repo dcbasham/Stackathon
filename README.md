@@ -1,5 +1,7 @@
 # Stackathon Project Topic: Search Engine Optimization for Users
 
+https://www.youtube.com/watch?v=Mjol0OENpvY
+
 ## Problem:
 
 - Google is a common tool I use to find answers to questions i'm having as a developer and in general everyday life.
@@ -19,14 +21,18 @@
 
 ### Technologies explored:
 
-- neo4j
+- neo4j [Getting Started](https://neo4j.com/docs/getting-started/4.4/)
+- [Graph databases for Beginners guide](https://neo4j.com/developer/graph-database/)
 - Creating an instance of a neo4j auraDB graph database
+- Using neo4j Desktop and Browser, Movie and Actor guide.
+
 - graphQL
-  - [HowTo](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/)
+  - [Why](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/)
   - [React+Apollo](./GraphQL.md)
-  - [ApolloServer](./hackernews-tutorial/README.md)
+  - [in Node: ApolloServer](./hackernews-tutorial/README.md)
 - Cypher - graph query language
-  - [Cypher_Neo4j](https://neo4j.com/docs/getting-started/4.4/cypher-intro/patterns/#cypher-intro-patterns)
+  - [Cypher in Neo4j](https://neo4j.com/docs/getting-started/4.4/cypher-intro/patterns/#cypher-intro-patterns)
+- [See here for more links/info]('./GraphQL.md')
 - Apollo Server/ Apollo Client
 - **Other APIs**
   - StackExchange to query information for filtered results.
