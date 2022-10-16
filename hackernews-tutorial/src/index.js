@@ -40,7 +40,7 @@ const resolvers = {
       const link = {
         // id: unique integer variable for each link element
         id: `link-${idCount++}`,
-        description: args.description
+        description: args.description,
         url: args.url,
       };
       //adds the newly created link obj to the links list.
