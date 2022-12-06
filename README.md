@@ -1,4 +1,12 @@
-# Stackathon Project Topic: SEO, Neo4j and GraphQL
+## Further Development of GraphQL files
+- [GraphQL with ApolloServer](./hackernews-tutorial/GraphQL.md)
+
+#### UPDATE- 10/8/22:
+
+- I've learned a little more about how Google works to come up with search results. For example, when you look up your own name you may notice some results are very old. By clicking on the three dots, like how it indexes pages with your name, the web crawlers (think robots) "crawl" pages searching for key words like your first and last name that appear together on another website. It is very difficult to have things removed from search results in the US unless there is some emergency reason like your bank account number, or home address being present, [more info on submitting removal requests](https://support.google.com/websearch/answer/9673730).
+
+# ORIGINAL PROJECT: 
+## Stackathon Project Topic: SEO, Neo4j and GraphQL
 
 https://www.youtube.com/watch?v=Mjol0OENpvY
 
@@ -24,9 +32,7 @@ https://www.youtube.com/watch?v=Mjol0OENpvY
 
 - StackExchange to query information for filtered results from stackoverflow.com [Stack Exchange Data Explorer](https://data.stackexchange.com/stackoverflow/queries) is a query composer for Stack Overflow and other Q & A sites.
 
-#### UPDATE- 10/8/22:
 
-- I've learned a little more about how Google works to come up with search results. For example, when you look up your own name you may notice some results are very old. By clicking on the three dots, like how it indexes pages with your name, the web crawlers (think robots) "crawl" pages searching for key words like your first and last name that appear together on another website. It is very difficult to have things removed from search results in the US unless there is some emergency reason like your bank account number, or home address being present, [more info on submitting removal requests](https://support.google.com/websearch/answer/9673730).
 
 ### Neo4j :
 
@@ -44,4 +50,4 @@ https://www.youtube.com/watch?v=Mjol0OENpvY
 #### Other Links:
 
 - [Why GraphQL](https://www.howtographql.com/basics/1-graphql-is-the-better-rest/)
-- [GraphQL with ApolloServer](./hackernews-tutorial/README.md)
+
