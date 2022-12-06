@@ -1,6 +1,6 @@
-## GraphQL's How-To with videos [howtographQL](https://www.howtographql.com/)
 
-### Server-side:
+
+## Server-side:
 
 [Node/GraphQL tutorial](https://www.howtographql.com/graphql-js/0-introduction)
 
@@ -16,8 +16,9 @@
 - parent keyword:
 - important to note that every GraphQL resolver function actually receives four input arguments. As the remaining three are not needed in our scenario right now, we’re simply omitting them. Don’t worry, you’ll get to know them soon.
   https://www.howtographql.com/graphql-js/2-a-simple-query/
-  the argument of parent (or sometimes root) is the result of the previous resolver execution level. === Each nesting level
-- Each level of nesting (i.e. nested curly braces) corresponds to one resolver execution level. This query is 2 levels: <br>
+  the argument of parent (or sometimes root) is the result of the previous resolver execution level (Each nesting level )
+- Each level of nesting (i.e. nested curly braces) corresponds to one resolver execution level. 
+-  This query is 2 levels: <br>
 query _{_
 feed _{_
 id
@@ -25,12 +26,12 @@ url
 description
 _}_
 _}_
-Every field inside the schema defn is backed by one resolver fn. whose responsibility is to return data from that field.
+Every field inside the schema defn is backed by one resolver function whose responsibility is to return data from that field.
 <!-- On the first level, it invokes the feed resolver and returns the entire data stored in links. For the second 2. invokes resolvers of the Link type b/c of our schema it knows that a list feed return a list of Link elements
 So the incoming parent obj is the element inside of the links list.-->
 
 #### Prisma :
-
+<!-- 
 install Prisma CLI and Prisma Client
 `npm install prisma --save-dev`
 `npm install @prisma/client`
@@ -46,12 +47,14 @@ There should now be a prisma directory inside your project, with a file called s
 2. Generator: Indicates that you want to generate Prisma Client.
 3. Data model: Defines your application models. Each model will be mapped to a table in the underlying database.-->
 
-Let’s break down the three parts:
 
-Data source: (Database Connection) Tells Prisma that SQLite will be used for our database connection.
-Generator: Tells it we want to generate Prisma Client.
-Data model: (Defines our application models, each model will be a table in the db)
-Here we have the Link model.
+###### Data source: 
+(Database Connection) Tells Prisma that SQLite will be used for our database connection.
+###### Generator: 
+Tells it we want to generate Prisma Client.
+###### Data model: 
+Defines models
+(i.e. Link model)
 
 ### Iniitalizing Database SQLite with Prisma
 
@@ -70,12 +73,12 @@ Next, we put the code into src/script.js [tutorial link](https://www.howtographq
 
 Query the database with the new code, run: `node src/script.js`
 
-- Will return an empty array since the database is empty, lets fix that by creating a new link in the script.
-<!--const newLink = await prisma.link.create({
+- Will return an empty array since the database is empty, create a new link in the script.
+`const newLink = await prisma.link.create({
     data: {
       description: 'Fullstack tutorial for GraphQL',
       url: 'www.howtographql.com',
     },
-  })-->
-
+  })`
+### GraphQL's How-To with videos [howtographQL](https://www.howtographql.com/)
 ### [FrontEnd:React+Apollo](https://www.howtographql.com/react-apollo/0-introduction/)
