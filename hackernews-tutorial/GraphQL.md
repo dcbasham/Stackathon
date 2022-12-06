@@ -80,5 +80,8 @@ Query the database with the new code, run: `node src/script.js`
       url: 'www.howtographql.com',
     },
   })`
+  ## Note
+  - Further completion of this tutorial on hold because of outdated content. 
+  ## Resources
 ### GraphQL's How-To with videos [howtographQL](https://www.howtographql.com/)
 ### [FrontEnd:React+Apollo](https://www.howtographql.com/react-apollo/0-introduction/)
